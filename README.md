@@ -17,3 +17,12 @@ Optimize Windows 11 for gaming as well as productivity <br>
 Strip Windows 11 to barebones (In Advanced removal below) <br>
 
 ### Cons
+
+Breaks Sysprep <br>
+Removing Windows Defender breaks updatability <br>
+
+## Debloating Windows 11 (Just The Bloatwares)
+
+### Microsoft Store 
+In the PowerShell, type: <br>
+```Get-AppxPackage -AllUsers *store* | Remove-AppxPackage```
