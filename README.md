@@ -2,11 +2,11 @@
 
 ## IMPORTANT
 
-This guide is meant for advanced users who wants to get rid off Windows 11's bloatware and telemetry, if you have no experience of such thing you can consider this guide for ease. <br>
+This guide is meant for advanced users who wants to get rid off Windows 11's bloatware and telemetry, if you have no experience of such thing then you can consider this guide for ease. <br>
 <br>
 **Note : You're doing this at your own risk, I am not responsible for any data loss or damage that may occur.**
 <br>
-Last tested on Windows 11 Insider Build : 22000.160
+Last tested on Windows 11 Insider Build : 22000.176
 
 ## Credits 
 
@@ -33,6 +33,8 @@ Won't be able to use sfc/scannow command
 NTFS Access <br>
 Install_Wim_Tweak.exe <br>
 DISM++ (Optional but recommended) <br>
+WinAeroTweaker <br>
+Linux Live or Dualboot (if you want to strip to barebone)
 
 ## Debloating Windows 11 (Just The Bloatwares)
 
