@@ -42,8 +42,8 @@ Linux Live or Dualboot (if you want to strip to barebone)
 ![Screenshot (01)](https://user-images.githubusercontent.com/85176292/132122504-1412f80f-2bac-4671-93f0-fa5204082b59.png)
 ![Screenshot (02)](https://user-images.githubusercontent.com/85176292/132122505-95823c80-06cc-4037-a48a-7e4a2e0a904a.png)
 
+**Make sure you are doing this on a temporary user account because you'll be deleting this later on**
 Copy and paste the "install_wim_tweak.exe" to C:\Windows\System32 <br>
-Open NTFS Access and browse to C:\Program Files\WindowsApps\ and take ownership of that directory and sub dirs
 
 Before debloating if you have recently updated your copy of Windows 11 or just fresh installed it, I would recommend you to cleanup the component store with /resetbase command or use DISM++ for ease, it clears the temp files with update leftovers in WinSxS. <br>
 **Note : If DISM++ gives error while cleaning up the component store use this command (Command Prompt as Admin Obviously)**
@@ -79,17 +79,12 @@ reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" 
 sc delete PushToInstall
 ```
 
-Now go to C:\Program Files\WindowsApps <br>
-Now delete (shift + delete) the folder named ""
-
 ### Music, TV
 In the PowerShell, type: <br>
 ```
 Get-AppxPackage -AllUsers *zune* | Remove-AppxPackage
 Get-WindowsPackage -Online | Where PackageName -like *MediaPlayer* | Remove-WindowsPackage -Online -NoRestart
 ```
-Now go to C:\Program Files\WindowsApps <br>
-Now delete (shift + delete) the folder named ""
 
 ### Xbox and Game DVR
 In the PowerShell, type: <br>
@@ -110,17 +105,11 @@ schtasks /Change /TN "Microsoft\XblGameSave\XblGameSaveTaskLogon" /disable
 reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\GameDVR" /v AllowGameDVR /t REG_DWORD /d 0 /f
 ```
 
-Now go to C:\Program Files\WindowsApps <br>
-Now delete (shift + delete) the folder named ""
-
 ### Sticky Notes
 In the PowerShell, type: <br>
 ```
 Get-AppxPackage -AllUsers *sticky* | Remove-AppxPackage
 ```
-
-Now go to C:\Program Files\WindowsApps <br>
-Now delete (shift + delete) the folder named ""
 
 ### Maps
 In the PowerShell, type: <br>
@@ -136,9 +125,6 @@ sc delete lfsvc
 schtasks /Change /TN "\Microsoft\Windows\Maps\MapsUpdateTask" /disable
 schtasks /Change /TN "\Microsoft\Windows\Maps\MapsToastTask" /disable
 ```
-
-Now go to C:\Program Files\WindowsApps <br>
-Now delete (shift + delete) the folder named ""
 
 ### Alarms and Clock
 ```
