@@ -524,4 +524,4 @@ This guide is based on Adolf Intel's [Windows 10 Privacy Guide](https://github.c
 Thanks to PPGSource#3112 from my discord server for stripping Windows 11 to barebones <br>
 Guide by The World Of PC#0077 <br>
 
-[!["Buy Me A Coffee"](https://cdn.discordapp.com/attachments/837916532003962910/880500524934369352/BMC.png)](https://www.buymeacoffee.com/TheWorldOfPC)
+[!["Buy Me A Coffee"](https://cdn.discordapp.com/attachments/837916532003962910/884133800655851540/78w12.png)](https://www.buymeacoffee.com/TheWorldOfPC)
