@@ -1,4 +1,4 @@
-# Windows11 Debloater
+# Windows 11 Debloat / Optimization / Privacy Guide
 
 ## IMPORTANT
 
