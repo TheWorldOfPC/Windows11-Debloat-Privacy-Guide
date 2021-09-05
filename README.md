@@ -314,6 +314,8 @@ You Have Successfully Debloated Windows 11!
 
 ![Screenshot (14)](https://user-images.githubusercontent.com/85176292/132127314-a39be4cc-f084-4190-81e5-c44306db1edf.png)
 
+Unfortunately there is no way to remove "Get Started App" from the start menu without breaking the new startmenu/taskbar (at least for now) so let's just pretend it's not there at all :)
+
 ## Basic Tweaking
 
 ### Removing Options from Settings Apps
