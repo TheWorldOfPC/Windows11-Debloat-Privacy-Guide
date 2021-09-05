@@ -60,7 +60,7 @@ Before debloating if you have recently updated your copy of Windows 11 or just f
 DISM /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 ```
 After the cleanup is done you can start debloating Windows 11. <br>
-You can debloat using my debloat tool and then continue further optimization <br>
+You can debloat using my debloat tool and then continue further optimization from ![Finalization](#Finalization) <br>
 
 ![Screenshot (06)](https://user-images.githubusercontent.com/85176292/132124748-0a480c76-367e-4138-848f-c400b6db98a3.png)
 
