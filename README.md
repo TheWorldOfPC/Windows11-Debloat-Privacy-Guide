@@ -1,6 +1,6 @@
 # Windows 11 Debloat / Optimization / Privacy Guide
 
-## ⚠️ IMPORTANT
+## IMPORTANT
 
 This guide is meant for advanced users who wants to get rid off Windows 11's bloatware and telemetry, if you have no experience of such thing then you can consider this guide for ease. <br>
 
