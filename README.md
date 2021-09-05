@@ -463,8 +463,17 @@ schtasks /Change /TN "\Microsoft\Windows\NetTrace\GatherNetworkInfo" /disable
 del /F /Q "C:\Windows\System32\Tasks\Microsoft\Windows\SettingSync\*" 
 ```
 
+## Stripping Windows 11 to barebone!
+
+**NOTE : This method or removing windows components can be dangerous and may corrupt your windows installation, you are doing this at your own risk** <br>
+
+Now since you have removed all the bloatware, and have done basic tweaking now it's time to strip windows 11 to barebone <br>
+If you are not a big fan of the new Windows UI (like me) then this part is for you
+
+We'll start from removing the new start menu / taskbar
+
 ## Congratulations! Your copy of Windows is now Debotnetted!
-Things will change in the future, and I'll do what I can to keep this guide updated. As of August 2021, this guide works on Windows 11 (22000.160)
+Things will change in the future, and I'll do what I can to keep this guide updated. As of September 2021, this guide works on Windows 11 (22000.160)
 
 ## Can Windows revert these changes?
 When a major update is installed, almost all changes will be reverted and you'll have to repeat this procedure. Major updates come out about twice a year.
