@@ -299,9 +299,17 @@ Now disable Windows Defender through WinAeroTweaker
 
 Now since you have removed all the bloatware let's just finally delete the leftovers from C:\Program Files\WindowsApps <br>
 Take the ownership as we did above <br>
-Now delete every folder except these...
+Now delete folders according to what apps you removed... <br>
 
-## You Have Successfully Debloated Windows 11!
+For Ex. I've removed everything and kept Store, Xbox, Notepad (UWP) and Windows Terminal <br>
+
+
+And here I've removed every bloatware <br>
+
+
+Now create a new user account or enable Windows Administrator Account, log into it and voila! <br>
+You Have Successfully Debloated Windows 11!
+
 
 ## Basic Tweaking
 
