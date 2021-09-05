@@ -234,6 +234,12 @@ In the command prompt, type:
 install_wim_tweak /o /c Microsoft-PPIProjection-Package /r
 ```
 
+### Cortana (UWP App)
+In the powershell, type:
+```
+Get-AppxPackage -allusers Microsoft.549981C3F5F10 | Remove-AppxPackage
+```
+
 ### Your Phone
 In the PowerShell, type:
 ```
