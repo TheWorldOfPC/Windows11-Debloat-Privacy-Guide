@@ -11,16 +11,16 @@ Last tested on Windows 11 Insider Build : 22000.176 / 22449.1000
 
 ### Pros
 
-Get rid of bloatware <br>
-Disable most of the telemetry <br>
-Gain performance <br>
-Optimize Windows 11 for gaming as well as productivity <br>
-Strip Windows 11 to barebones (In Advanced removal below) <br>
+➕ Get rid of bloatware <br>
+➕ Disable most of the telemetry <br>
+➕ Gain performance <br>
+➕ Optimize Windows 11 for gaming as well as productivity <br>
+➕ Strip Windows 11 to barebones (In Advanced removal below) <br>
 
 ### Cons
 
-Breaks Sysprep <br>
-Won't be able to use sfc/scannow command
+➖ Breaks Sysprep <br>
+➖ Won't be able to use sfc/scannow command
 
 ## Pre-Requisite
 
