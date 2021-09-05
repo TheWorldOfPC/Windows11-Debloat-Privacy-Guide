@@ -303,13 +303,16 @@ Now delete folders according to what apps you removed... <br>
 
 For Ex. I've removed everything and kept Store, Xbox, Notepad (UWP) and Windows Terminal <br>
 
+![Screenshot (12)](https://user-images.githubusercontent.com/85176292/132127306-370369f6-d9f0-4a39-87e4-9b1eaa35eef8.png)
 
 And here I've removed every bloatware <br>
 
+![Screenshot (13)](https://user-images.githubusercontent.com/85176292/132127308-3c44ff88-4dd9-4595-a1c9-f868c77ff33c.png)
 
 Now create a new user account or enable Windows Administrator Account, log into it and voila! <br>
 You Have Successfully Debloated Windows 11!
 
+![Screenshot (14)](https://user-images.githubusercontent.com/85176292/132127314-a39be4cc-f084-4190-81e5-c44306db1edf.png)
 
 ## Basic Tweaking
 
