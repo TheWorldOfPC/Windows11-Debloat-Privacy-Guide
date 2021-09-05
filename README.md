@@ -8,12 +8,6 @@ This guide is meant for advanced users who wants to get rid off Windows 11's blo
 <br>
 Last tested on Windows 11 Insider Build : 22000.176 / 22449.1000
 
-## Credits 
-
-This guide is based on Adolf Intel's Windows 10 Privacy Guide with many modifications to make it working on Windows 11 <br>
-Thanks to PPGSource 502#3112 from my discord server for stripping Windows 11 to barebones <br>
-Made by The World Of PC#0077 <br>
-
 ### Pros
 
 Get rid of bloatware <br>
@@ -521,5 +515,11 @@ Things will change in the future, and I'll do what I can to keep this guide upda
 
 ## Can Windows revert these changes?
 When a major update is installed, almost all changes will be reverted and you'll have to repeat this procedure. Major updates come out about twice a year.
+
+## Credits 
+
+This guide is based on Adolf Intel's [Windows 10 Privacy Guide](https://github.com/adolfintel/Windows10-Privacy) with many modifications to make it usable on Windows 11 <br>
+Thanks to PPGSource#3112 from my discord server for stripping Windows 11 to barebones <br>
+Guide by The World Of PC#0077 <br>
 
 [!["Buy Me A Coffee"](https://cdn.discordapp.com/attachments/837916532003962910/880500524934369352/BMC.png)](https://www.buymeacoffee.com/TheWorldOfPC)
