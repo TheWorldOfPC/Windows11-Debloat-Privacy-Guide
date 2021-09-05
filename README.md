@@ -5,7 +5,6 @@
 This guide is meant for advanced users who wants to get rid off Windows 11's bloatware and telemetry, if you have no experience of such thing then you can consider this guide for ease. <br>
 <br>
 **Note : You're doing this at your own risk, I am not responsible for any data loss or damage that may occur.**
-**Note: Give The World Of PC head for what he gives you**
 <br>
 Last tested on Windows 11 Insider Build : 22000.176 / 22449.1000
 
@@ -475,6 +474,20 @@ We'll start from removing the new start menu / taskbar <br>
 
 To remove the new taskbar you need to dualboot to any other OS or use Linux Live (any distro) <br>
 Now use NTFS Access and gain ownership of Windows\SystemApps\
+
+Now delete the folder named "MicrosoftWindows.Client.CBS_cw5n1h2txyewy" <br>
+Now just boot back to Windows 11, you'll notice a broken taskbar <br>
+Press Win Key + R and type "control userpasswords2" and press enter <br>
+Now create a new user account, log out of the current one and log into the new one <br>
+and there you have the old Windows 10 start menu, after 22000.132 it's broken but before this update you can still use it <br>
+
+Now since it's broken (as well as the cortana bar) let's just hide these icons, task view is quite simple just go to taskbar options and disable it <br>
+For cortana open regedit and go to "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search" <br>
+Create new DWord "SearchboxTaskbarMode" and set value to 0 (restart explorer or login again to let the changes take place) <br>
+
+Well since the Win10 start menu is broken we need an alternative to it, either OpenShell or StartIsBack. I personally prefer StartIsBack over OpenShell so I'll use that one, you choose whatever you want to use. <br>
+
+StartIsBack users enable these options to save some more resouces :P
 
 ## Congratulations! Your copy of Windows is now Debotnetted!
 Things will change in the future, and I'll do what I can to keep this guide updated. As of September 2021, this guide works on Windows 11 (22000.160)
