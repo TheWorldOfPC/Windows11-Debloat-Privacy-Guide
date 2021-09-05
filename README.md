@@ -515,7 +515,7 @@ StartIsBack users enable these options to save some more resouces :P
 
 ![Untitled-1](https://user-images.githubusercontent.com/85176292/132133180-4b7331d2-1b2a-4268-a728-de8b78691b37.png)
 
-## Congratulations! Your copy of Windows is now Debotnetted!
+## Congratulations! Your copy of Windows is now Debloated & Optimized!
 Things will change in the future, and I'll do what I can to keep this guide updated. As of September 2021, this guide works on Windows 11 (22000.160)
 
 ## Can Windows revert these changes?
