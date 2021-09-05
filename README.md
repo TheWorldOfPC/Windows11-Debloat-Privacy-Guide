@@ -42,7 +42,7 @@ Linux Live or Dualboot (if you want to strip to barebone)
 ![Screenshot (01)](https://user-images.githubusercontent.com/85176292/132122504-1412f80f-2bac-4671-93f0-fa5204082b59.png)
 ![Screenshot (02)](https://user-images.githubusercontent.com/85176292/132122505-95823c80-06cc-4037-a48a-7e4a2e0a904a.png)
 
-**Make sure you are doing this on a temporary user account because you'll be deleting this later on**
+**Make sure you are doing this on a temporary user account because you'll be deleting this later on** <br>
 Copy and paste the "install_wim_tweak.exe" to C:\Windows\System32 <br>
 
 Before debloating if you have recently updated your copy of Windows 11 or just fresh installed it, I would recommend you to cleanup the component store with /resetbase command or use DISM++ for ease, it clears the temp files with update leftovers in WinSxS. <br>
