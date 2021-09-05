@@ -60,6 +60,7 @@ DISM /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 ```
 After the cleanup is done you can start debloating Windows 11.
 
+![Screenshot (06)](https://user-images.githubusercontent.com/85176292/132123934-cceb2099-ec54-4c79-b0cb-72555fab5ce4.png)
 
 ### Microsoft Store 
 In the PowerShell, type: <br>
