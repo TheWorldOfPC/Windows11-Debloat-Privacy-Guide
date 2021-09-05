@@ -6,7 +6,7 @@ This guide is meant for advanced users who wants to get rid off Windows 11's blo
 <br>
 **Note : You're doing this at your own risk, I am not responsible for any data loss or damage that may occur.**
 <br>
-Last tested on Windows 11 Insider Build : 22000.176
+Last tested on Windows 11 Insider Build : 22000.176 / 22449.1000
 
 ## Credits 
 
@@ -25,7 +25,6 @@ Strip Windows 11 to barebones (In Advanced removal below) <br>
 ### Cons
 
 Breaks Sysprep <br>
-Removing Windows Defender breaks updatability <br>
 Won't be able to use sfc/scannow command
 
 ## Pre-Requisite
@@ -39,6 +38,9 @@ Linux Live or Dualboot (if you want to strip to barebone)
 ## Debloating Windows 11 (Just The Bloatwares)
 
 ### Before you debloat!
+
+![Screenshot (01)](https://user-images.githubusercontent.com/85176292/132122504-1412f80f-2bac-4671-93f0-fa5204082b59.png)
+![Screenshot (02)](https://user-images.githubusercontent.com/85176292/132122505-95823c80-06cc-4037-a48a-7e4a2e0a904a.png)
 
 Copy and paste the "install_wim_tweak.exe" to C:\Windows\System32 <br>
 Open NTFS Access and browse to C:\Program Files\WindowsApps\ and take ownership of that directory and sub dirs
