@@ -62,7 +62,7 @@ DISM /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 After the cleanup is done you can start debloating Windows 11. <br>
 You can debloat using my debloat tool and then continue further optimization <br>
 
-![Screenshot (06)](https://user-images.githubusercontent.com/85176292/132123934-cceb2099-ec54-4c79-b0cb-72555fab5ce4.png)
+![Screenshot (06)](https://user-images.githubusercontent.com/85176292/132124748-0a480c76-367e-4138-848f-c400b6db98a3.png)
 
 Or you can start from here <br>
 ### Microsoft Store 
