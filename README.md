@@ -60,6 +60,130 @@ You can debloat using my debloat tool and then continue further optimization fro
 ![Screenshot (06)](https://user-images.githubusercontent.com/85176292/132124748-0a480c76-367e-4138-848f-c400b6db98a3.png)
 
 Or you can start from here <br>
+
+### Alarms and Clock
+```
+Get-AppxPackage -AllUsers *alarms* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *people* | Remove-AppxPackage
+```
+You can ignore any error that pops up.
+
+### Calculator
+In the PowerShell, type:
+```
+Get-AppxPackage -AllUsers *calc* | Remove-AppxPackage
+```
+Download Classic Calulator from [Here](https://winaero.com/get-calculator-from-windows-8-and-windows-7-in-windows-10/)
+
+### Mail, Calendar, ...
+In the PowerShell, type:
+```
+Get-AppxPackage -AllUsers *comm* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *mess* | Remove-AppxPackage
+```
+
+### Camera
+In the PowerShell, type:
+```
+Get-AppxPackage -AllUsers *camera* | Remove-AppxPackage
+````
+Ignore any error that pops up
+
+### Connect
+In the command prompt, type:
+```
+install_wim_tweak /o /c Microsoft-PPIProjection-Package /r
+```
+
+### Contact Support, Get Help
+In the command prompt, type:
+```
+install_wim_tweak /o /c Microsoft-Windows-ContactSupport /r
+```
+
+### Cortana (UWP App)
+In the powershell, type:
+```
+Get-AppxPackage -allusers Microsoft.549981C3F5F10 | Remove-AppxPackage
+```
+
+### Music, TV
+In the PowerShell, type: <br>
+```
+Get-AppxPackage -AllUsers *zune* | Remove-AppxPackage
+Get-WindowsPackage -Online | Where PackageName -like *MediaPlayer* | Remove-WindowsPackage -Online -NoRestart
+```
+
+### Sticky Notes
+In the PowerShell, type: <br>
+```
+Get-AppxPackage -AllUsers *sticky* | Remove-AppxPackage
+```
+
+### Maps
+In the PowerShell, type: <br>
+```
+Get-AppxPackage -AllUsers *maps* | Remove-AppxPackage
+```
+
+### Removing Services
+In Command Prompt, type: <br>
+```
+sc delete MapsBroker
+sc delete lfsvc
+schtasks /Change /TN "\Microsoft\Windows\Maps\MapsUpdateTask" /disable
+schtasks /Change /TN "\Microsoft\Windows\Maps\MapsToastTask" /disable
+```
+
+### OneNote
+In the PowerShell, type:
+```
+Get-AppxPackage -AllUsers *onenote* | Remove-AppxPackage
+```
+
+### Photos
+In the PowerShell, type:
+```
+Get-AppxPackage -AllUsers *photo* | Remove-AppxPackage
+```
+Enable Classic Photoviewer using [WinAeroTweaker](https://winaero.com/download-winaero-tweaker/)
+
+### Weather, News, ...
+In the PowerShell, type:
+```
+Get-AppxPackage -AllUsers *bing* | Remove-AppxPackage
+```
+
+### Sound Recorder
+In the PowerShell, type:
+```
+Get-AppxPackage -AllUsers *soundrec* | Remove-AppxPackage
+```
+Alternatives [Audacity](http://www.audacityteam.org/)
+
+### Microsoft Quick Assist
+In the PowerShell, type:
+```
+Get-WindowsPackage -Online | Where PackageName -like *QuickAssist* | Remove-WindowsPackage -Online -NoRestart
+```
+
+### Your Phone
+In the PowerShell, type:
+```
+Get-AppxPackage -AllUsers *phone* | Remove-AppxPackage
+```
+
+### Hello Face
+In the PowerShell, type:
+```
+Get-WindowsPackage -Online | Where PackageName -like *Hello-Face* | Remove-WindowsPackage -Online -NoRestart
+```
+
+In the command prompt, type:
+```
+schtasks /Change /TN "\Microsoft\Windows\HelloFace\FODCleanupTask" /Disable
+```
+
 ### Microsoft Store 
 In the PowerShell, type: <br>
 ```
@@ -85,13 +209,6 @@ reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" 
 sc delete PushToInstall
 ```
 
-### Music, TV
-In the PowerShell, type: <br>
-```
-Get-AppxPackage -AllUsers *zune* | Remove-AppxPackage
-Get-WindowsPackage -Online | Where PackageName -like *MediaPlayer* | Remove-WindowsPackage -Online -NoRestart
-```
-
 ### Xbox and Game DVR
 In the PowerShell, type: <br>
 ```
@@ -110,81 +227,6 @@ schtasks /Change /TN "Microsoft\XblGameSave\XblGameSaveTask" /disable
 schtasks /Change /TN "Microsoft\XblGameSave\XblGameSaveTaskLogon" /disable
 reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\GameDVR" /v AllowGameDVR /t REG_DWORD /d 0 /f
 ```
-
-### Sticky Notes
-In the PowerShell, type: <br>
-```
-Get-AppxPackage -AllUsers *sticky* | Remove-AppxPackage
-```
-
-### Maps
-In the PowerShell, type: <br>
-```
-Get-AppxPackage -AllUsers *maps* | Remove-AppxPackage
-```
-
-### Removing Services
-In Command Prompt, type: <br>
-```
-sc delete MapsBroker
-sc delete lfsvc
-schtasks /Change /TN "\Microsoft\Windows\Maps\MapsUpdateTask" /disable
-schtasks /Change /TN "\Microsoft\Windows\Maps\MapsToastTask" /disable
-```
-
-### Alarms and Clock
-```
-Get-AppxPackage -AllUsers *alarms* | Remove-AppxPackage
-Get-AppxPackage -AllUsers *people* | Remove-AppxPackage
-```
-You can ignore any error that pops up.
-
-### Mail, Calendar, ...
-In the PowerShell, type:
-```
-Get-AppxPackage -AllUsers *comm* | Remove-AppxPackage
-Get-AppxPackage -AllUsers *mess* | Remove-AppxPackage
-```
-
-### OneNote
-In the PowerShell, type:
-```
-Get-AppxPackage -AllUsers *onenote* | Remove-AppxPackage
-```
-
-### Photos
-In the PowerShell, type:
-```
-Get-AppxPackage -AllUsers *photo* | Remove-AppxPackage
-```
-Enable Classic Photoviewer using [WinAeroTweaker](https://winaero.com/download-winaero-tweaker/)
-
-### Camera
-In the PowerShell, type:
-```
-Get-AppxPackage -AllUsers *camera* | Remove-AppxPackage
-````
-Ignore any error that pops up
-
-### Weather, News, ...
-In the PowerShell, type:
-```
-Get-AppxPackage -AllUsers *bing* | Remove-AppxPackage
-```
-
-### Calculator
-In the PowerShell, type:
-```
-Get-AppxPackage -AllUsers *calc* | Remove-AppxPackage
-```
-Download Classic Calulator from [Here](https://winaero.com/get-calculator-from-windows-8-and-windows-7-in-windows-10/)
-
-### Sound Recorder
-In the PowerShell, type:
-```
-Get-AppxPackage -AllUsers *soundrec* | Remove-AppxPackage
-```
-Alternatives [Audacity](http://www.audacityteam.org/)
 
 ### Microsoft Edge (Chromium)
 
@@ -206,50 +248,9 @@ install_wim_tweak.exe /h /o /l
 ```
 Restart is required after this (you can restart later when you are done debloating everything)
 
-### Contact Support, Get Help
-In the command prompt, type:
-```
-install_wim_tweak /o /c Microsoft-Windows-ContactSupport /r
-```
-
 In Powershell, type:
 ```
 Get-AppxPackage -AllUsers *GetHelp* | Remove-AppxPackage
-```
-
-### Microsoft Quick Assist
-In the PowerShell, type:
-```
-Get-WindowsPackage -Online | Where PackageName -like *QuickAssist* | Remove-WindowsPackage -Online -NoRestart
-```
-
-### Connect
-In the command prompt, type:
-```
-install_wim_tweak /o /c Microsoft-PPIProjection-Package /r
-```
-
-### Cortana (UWP App)
-In the powershell, type:
-```
-Get-AppxPackage -allusers Microsoft.549981C3F5F10 | Remove-AppxPackage
-```
-
-### Your Phone
-In the PowerShell, type:
-```
-Get-AppxPackage -AllUsers *phone* | Remove-AppxPackage
-```
-
-### Hello Face
-In the PowerShell, type:
-```
-Get-WindowsPackage -Online | Where PackageName -like *Hello-Face* | Remove-WindowsPackage -Online -NoRestart
-```
-
-In the command prompt, type:
-```
-schtasks /Change /TN "\Microsoft\Windows\HelloFace\FODCleanupTask" /Disable
 ```
 
 ### Windows Defender (Breaks Windows Updates)
