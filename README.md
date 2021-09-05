@@ -38,6 +38,7 @@ Linux Live or Dualboot (if you want to strip to barebone)
 ## Debloating Windows 11 (Just The Bloatwares)
 
 ### Before you debloat!
+At the end of the setup process, create a local account, don't use Cortana and turn off everything in the privacy settings. <br>
 
 ![Screenshot (01)](https://user-images.githubusercontent.com/85176292/132122504-1412f80f-2bac-4671-93f0-fa5204082b59.png)
 ![Screenshot (02)](https://user-images.githubusercontent.com/85176292/132122505-95823c80-06cc-4037-a48a-7e4a2e0a904a.png)
