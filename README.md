@@ -24,11 +24,11 @@ Last tested on Windows 11 Insider Build : 22000.176 / 22449.1000
 
 ## Pre-Requisite
 
-NTFS Access <br>
-Install_Wim_Tweak.exe <br>
-DISM++ (Optional but recommended) <br>
-WinAeroTweaker <br>
-Linux Live or Dualboot (if you want to strip to barebone)
+• NTFS Access <br>
+• Install_Wim_Tweak.exe <br>
+• DISM++ (Optional but recommended) <br>
+• WinAeroTweaker <br>
+• Linux Live or any other OS on duablboot (if you want to strip to barebone)
 
 ## Debloating Windows 11 (Just The Bloatwares)
 
