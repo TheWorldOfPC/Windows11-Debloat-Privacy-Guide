@@ -468,9 +468,12 @@ del /F /Q "C:\Windows\System32\Tasks\Microsoft\Windows\SettingSync\*"
 **NOTE : This method or removing windows components can be dangerous and may corrupt your windows installation, you are doing this at your own risk** <br>
 
 Now since you have removed all the bloatware, and have done basic tweaking now it's time to strip windows 11 to barebone <br>
-If you are not a big fan of the new Windows UI (like me) then this part is for you
+If you are not a big fan of the new Windows UI (like me) then this part is for you <br>
 
-We'll start from removing the new start menu / taskbar
+We'll start from removing the new start menu / taskbar <br>
+
+To remove the new taskbar you need to dualboot to any other OS or use Linux Live (any distro) <br>
+Now use NTFS Access and gain ownership of Windows\SystemApps\
 
 ## Congratulations! Your copy of Windows is now Debotnetted!
 Things will change in the future, and I'll do what I can to keep this guide updated. As of September 2021, this guide works on Windows 11 (22000.160)
