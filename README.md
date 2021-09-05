@@ -289,6 +289,12 @@ Just take the ownership of C:\Program Files\WindowsApps\ and C:\ProgramData\Micr
 Then delete the SecHealthUI folder insider WindowsApps and every folder related to Windows Defender inside ProgramData <br>
 Now disable Windows Defender through WinAeroTweaker
 
+### FINALIZING
+
+Now since you have removed all the bloatware let's just finally delete the leftovers from C:\Program Files\WindowsApps <br>
+Take the ownership as we did above <br>
+Now delete every folder except these...
+
 ## You Have Successfully Debloated Windows 11!
 
 ## Basic Tweaking
@@ -302,7 +308,7 @@ now type
 hide:cortana;crossdevice;easeofaccess-speechrecognition;holographic-audio;mobile-devices;privacy-automaticfiledownloads;privacy-feedback;recovery;remotedesktop;speech;sync;sync;easeofaccess-closedcaptioning;easeofaccess-highcontrast;easeofaccess-keyboard;easeofaccess-magnifier;easeofaccess-mouse;easeofaccess-narrator;easeofaccess-otheroptions;privacy-location;backup;findmydevice;quiethours;tabletmode
 ```
 
-TIP : Add `;windowsdefender` as well to the string value if you have removed Windows Defender as well
+TIP : Add `;windowsdefender` at the end of the string value if you have removed Windows Defender as well (doesn't matter if u kept updates or not)
 
 ### Edit with 3D Paint / 3D Print
 It is now possible to remove 3D Paint and 3D Print, but they forgot to remove the option in the context menu when you remove them. To remove it, run this in the command prompt:
