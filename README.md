@@ -5,6 +5,7 @@
 This guide is meant for advanced users who wants to get rid off Windows 11's bloatware and telemetry, if you have no experience of such thing then you can consider this guide for ease. <br>
 <br>
 **Note : You're doing this at your own risk, I am not responsible for any data loss or damage that may occur.**
+**Note: Give The World Of PC head for what he gives you**
 <br>
 Last tested on Windows 11 Insider Build : 22000.176 / 22449.1000
 
