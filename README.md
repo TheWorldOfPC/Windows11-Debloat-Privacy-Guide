@@ -473,21 +473,43 @@ If you are not a big fan of the new Windows UI (like me) then this part is for y
 We'll start from removing the new start menu / taskbar <br>
 
 To remove the new taskbar you need to dualboot to any other OS or use Linux Live (any distro) <br>
-Now use NTFS Access and gain ownership of Windows\SystemApps\
+Now use NTFS Access and gain ownership of C:\Windows\SystemApps\
+
+![Screenshot (1004)](https://user-images.githubusercontent.com/85176292/132132735-421f9e2f-8aab-4570-9ebc-2670e9c2cbfd.png)
 
 Now delete the folder named "MicrosoftWindows.Client.CBS_cw5n1h2txyewy" <br>
+
+![Screenshot (1005)](https://user-images.githubusercontent.com/85176292/132132744-5e804520-0538-4b23-ae6a-a4686476c013.png)
+
 Now just boot back to Windows 11, you'll notice a broken taskbar <br>
 Press Win Key + R and type "control userpasswords2" and press enter <br>
+
+![Screenshot (3)](https://user-images.githubusercontent.com/85176292/132132748-3ddd7117-f1b7-4359-893a-9fae2cd240d0.png)
+
 Now create a new user account, log out of the current one and log into the new one <br>
+
+![Screenshot (4)](https://user-images.githubusercontent.com/85176292/132132754-c51f2c7d-ca2b-4fad-ba28-24021780570f.png)
+
 and there you have the old Windows 10 start menu, after 22000.132 it's broken but before this update you can still use it <br>
 
+![Screenshot (1)](https://user-images.githubusercontent.com/85176292/132132763-1cccfb5a-4e4c-466c-9ecd-7d8dab2d9e25.png)
+
 Now since it's broken (as well as the cortana bar) let's just hide these icons, task view is quite simple just go to taskbar options and disable it <br>
+
+![Screenshot (2)](https://user-images.githubusercontent.com/85176292/132132768-27ccc5bb-8bfa-461c-b051-c8cd110cfb74.png)
+
 For cortana open regedit and go to "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search" <br>
 Create new DWord "SearchboxTaskbarMode" and set value to 0 (restart explorer or login again to let the changes take place) <br>
 
+![Screenshot (3)](https://user-images.githubusercontent.com/85176292/132132776-1ec1e2dd-b0da-4406-b98a-5a52870b14f6.png)
+
 Well since the Win10 start menu is broken we need an alternative to it, either OpenShell or StartIsBack. I personally prefer StartIsBack over OpenShell so I'll use that one, you choose whatever you want to use. <br>
 
+![Screenshot (4)](https://user-images.githubusercontent.com/85176292/132132785-269d6fa1-a9bb-4c7b-bbbf-d08aa07199bc.png)
+
 StartIsBack users enable these options to save some more resouces :P
+
+![Screenshot (5)](https://user-images.githubusercontent.com/85176292/132132851-1de05b63-7e5f-4954-a115-5b909648d399.png)
 
 ## Congratulations! Your copy of Windows is now Debotnetted!
 Things will change in the future, and I'll do what I can to keep this guide updated. As of September 2021, this guide works on Windows 11 (22000.160)
