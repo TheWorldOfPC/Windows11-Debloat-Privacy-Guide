@@ -487,6 +487,28 @@ del /F /Q "C:\Windows\System32\Tasks\Microsoft\Windows\SettingSync\*"
 
 • Here are some "safe" to disable Windows 11 services (used to be much more in .65 update)
 
+```
+sc config AppReadiness start= disabled
+sc config tzautoupdate start= disabled
+sc config DPS start= disabled
+sc config DialogBlockingService start= disabled
+sc config AppVClient start= disabled
+sc config MsKeyboardFilter start= disabled
+sc config NetTcpPortSharing start= disabled
+sc config ssh-agent start= disabled
+sc config WPDBusEnum start= disabled
+sc config Spooler start= disabled
+sc config RemoteRegistry start= disabled
+sc config RemoteAccess start= disabled
+sc config ShellHWDetection start= disabled
+sc config Themes start= disabled
+sc config TabletInputService start= disabled
+sc config UevAgentService start= disabled
+sc config WpnService start= disabled
+sc config WSearch start= disabled
+sc config WinHttpAutoProxySvc start= disabled
+sc config LanmanWorkstation start= disabled
+```
 ## Stripping Windows 11 to barebone!
 
 **NOTE : This method or removing windows components can be dangerous and may corrupt your windows installation, you are doing this at your own risk** <br>
