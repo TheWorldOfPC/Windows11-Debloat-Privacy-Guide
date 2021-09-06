@@ -485,6 +485,12 @@ del /F /Q "C:\Windows\System32\Tasks\Microsoft\Windows\SettingSync\*"
 
 • Here is a WinAeroTweaker export file, open WinAeroTweaker on your PC and import the file
 
+![aasdas](https://user-images.githubusercontent.com/85176292/132247138-d8b86c37-c1c1-48ae-8223-647a4e7ee4bc.png)
+
+• Now go to svchost spilt threshold and "set above RAM"
+
+![Screenshot (1035)](https://user-images.githubusercontent.com/85176292/132247273-02834750-a135-453b-9a45-f6460a761713.png)
+
 • Here are some "safe" to disable Windows 11 services (used to be much more in .65 update)
 
 ```
