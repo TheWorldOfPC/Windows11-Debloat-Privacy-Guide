@@ -491,8 +491,7 @@ del /F /Q "C:\Windows\System32\Tasks\Microsoft\Windows\SettingSync\*"
 
 ![Screenshot (1035)](https://user-images.githubusercontent.com/85176292/132247273-02834750-a135-453b-9a45-f6460a761713.png)
 
-• Here are some "safe" to disable Windows 11 services (used to be much more in .65 update)
-
+• Here are some "safe" to disable Windows 11 services (used to be much more in .65 update). Open command prompt as admin and type:
 ```
 sc config AppReadiness start= disabled
 sc config tzautoupdate start= disabled
@@ -555,7 +554,7 @@ Create new DWord "SearchboxTaskbarMode" and set value to 0 (restart explorer or 
 
 ![Screenshot (3)](https://user-images.githubusercontent.com/85176292/132132776-1ec1e2dd-b0da-4406-b98a-5a52870b14f6.png)
 
-Well since the Win10 start menu is broken we need an alternative to it, either OpenShell or StartIsBack. I personally prefer StartIsBack over OpenShell so I'll use that one, you choose whatever you want to use. Also StartIsBack development has been stopped so we might not recieve any updates, so I would like you guys to support the developer and hope he comes back with Windows 11 version of StartIsBack <br>
+Well since the Win10 start menu is broken we need an alternative to it, either OpenShell or StartIsBack. I personally prefer StartIsBack over OpenShell so I'll use that one, you choose whatever you want to use. Also StartIsBack development has been stopped so we might not recieve any updates, so I would like you guys to [support the developer](https://www.startisback.com/#buy-tab) and hope he comes back with Windows 11 version of StartIsBack <br>
 
 ![Screenshot (4)](https://user-images.githubusercontent.com/85176292/132132785-269d6fa1-a9bb-4c7b-bbbf-d08aa07199bc.png)
 
