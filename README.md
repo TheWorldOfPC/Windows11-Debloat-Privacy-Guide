@@ -481,6 +481,12 @@ schtasks /Change /TN "\Microsoft\Windows\NetTrace\GatherNetworkInfo" /disable
 del /F /Q "C:\Windows\System32\Tasks\Microsoft\Windows\SettingSync\*" 
 ```
 
+## Optimizing Windows 11
+
+• Here is a WinAeroTweaker export file, open WinAeroTweaker on your PC and import the file
+
+• Here are some "safe" to disable Windows 11 services (used to be much more in .65 update)
+
 ## Stripping Windows 11 to barebone!
 
 **NOTE : This method or removing windows components can be dangerous and may corrupt your windows installation, you are doing this at your own risk** <br>
@@ -528,6 +534,12 @@ Well since the Win10 start menu is broken we need an alternative to it, either O
 StartIsBack users enable these options to save some more resouces :P
 
 ![Screenshot (5)](https://user-images.githubusercontent.com/85176292/132132851-1de05b63-7e5f-4954-a115-5b909648d399.png)
+
+### Final Touches
+
+• Here is a WinAeroTweaker export file, open WinAeroTweaker on your PC and import the file
+
+• Here are some "safe" to disable Windows 11 services (used to be much more in .65 update)
 
 ## And here you have Windows 11 Barebone!
 By removing the new start menu and taskbar files we also remove the new explorer UI and context menu, but as I said if you are not a big fan of the new UI it won't matter.
