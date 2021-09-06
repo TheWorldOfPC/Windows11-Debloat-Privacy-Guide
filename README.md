@@ -555,7 +555,7 @@ Create new DWord "SearchboxTaskbarMode" and set value to 0 (restart explorer or 
 
 ![Screenshot (3)](https://user-images.githubusercontent.com/85176292/132132776-1ec1e2dd-b0da-4406-b98a-5a52870b14f6.png)
 
-Well since the Win10 start menu is broken we need an alternative to it, either OpenShell or StartIsBack. I personally prefer StartIsBack over OpenShell so I'll use that one, you choose whatever you want to use. <br>
+Well since the Win10 start menu is broken we need an alternative to it, either OpenShell or StartIsBack. I personally prefer StartIsBack over OpenShell so I'll use that one, you choose whatever you want to use. Also StartIsBack development has been stopped so we might not recieve any updates, so I would like you guys to support the developer and hope he comes back with Windows 11 version of StartIsBack <br>
 
 ![Screenshot (4)](https://user-images.githubusercontent.com/85176292/132132785-269d6fa1-a9bb-4c7b-bbbf-d08aa07199bc.png)
 
@@ -565,7 +565,7 @@ StartIsBack users enable these options to save some more resouces :P
 
 ### Final Touches
 
-• Here is a WinAeroTweaker export file, open WinAeroTweaker on your PC and import the file
+• Here is a WinAeroTweaker export file, open WinAeroTweaker on your PC and import the file <br>
 • Here is the reg export of disabled services from my "Xtreme LiteOS 11 : Barebone Edition" Just double click and apply
 
 ![Screenshot (2)](https://user-images.githubusercontent.com/85176292/132248179-6994a79a-0dfb-43ed-a0e9-69b31ee327e6.png)
