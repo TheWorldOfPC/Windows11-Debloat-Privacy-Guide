@@ -483,7 +483,7 @@ del /F /Q "C:\Windows\System32\Tasks\Microsoft\Windows\SettingSync\*"
 
 ## Optimizing Windows 11
 
-• Here is a WinAeroTweaker export file, open WinAeroTweaker on your PC and import the file
+• There is a WinAeroTweaker preset file (Winaero Tweaker Tweaks Import.ini), open WinAeroTweaker on your PC and import the file
 
 ![aasdas](https://user-images.githubusercontent.com/85176292/132247138-d8b86c37-c1c1-48ae-8223-647a4e7ee4bc.png)
 
@@ -564,8 +564,8 @@ StartIsBack users enable these options to save some more resouces :P
 
 ### Final Touches
 
-• Here is a WinAeroTweaker export file, open WinAeroTweaker on your PC and import the file <br>
-• Here is the reg export of disabled services from my [Xtreme LiteOS 11 : Barebone Edition](https://youtu.be/SGzOihFj1iw) Just double click and apply
+• There is a WinAeroTweaker preset file (WinAeroTweaker Tweaks Import (Barebone).ini), open WinAeroTweaker on your PC and import the file <br>
+• Here is the [reg export](https://github.com/TheWorldOfPC/Windows11-Debloat-Privacy-Guide/raw/main/Files/Barebone%20Services.reg) of disabled services from my [Xtreme LiteOS 11 : Barebone Edition](https://youtu.be/SGzOihFj1iw) Just double click and apply
 
 ![Screenshot (2)](https://user-images.githubusercontent.com/85176292/132248179-6994a79a-0dfb-43ed-a0e9-69b31ee327e6.png)
 
