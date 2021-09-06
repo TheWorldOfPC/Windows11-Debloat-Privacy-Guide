@@ -579,16 +579,13 @@ By removing the new start menu and taskbar files we also remove the new explorer
 ![Untitled-1](https://user-images.githubusercontent.com/85176292/132133180-4b7331d2-1b2a-4268-a728-de8b78691b37.png)
 
 ## Congratulations! Your copy of Windows is now Debloated & Optimized!
-Things will change in the future, and I'll do what I can to keep this guide updated. As of September 2021, this guide works on Windows 11 (22000.160)
-
-## Can Windows revert these changes?
-When a major update is installed, almost all changes will be reverted and you'll have to repeat this procedure. Major updates come out about twice a year.
+Things will change in the future, and I'll do what I can to keep this guide updated. As of September 2021, this guide works on Windows 11 (22000.176/22449.1000)
 
 ## Credits 
 
-This guide is based on Adolf Intel's [Windows 10 Privacy Guide](https://github.com/adolfintel/Windows10-Privacy) with many modifications to make it usable on Windows 11 <br>
-Thanks to PPGSource#3112 from my discord server for stripping Windows 11 to barebones <br>
-Guide by The World Of PC#0077 <br>
-[DISCORD SERVER](https://discord.gg/WtmzZ4EEjt)
-[YOUTUBE CHANNEL](https://www.youtube.com/channel/UCphlFqj7Xa9INM3DIvtXUhA/)
+• This guide is based on Adolf Intel's [Windows 10 Privacy Guide](https://github.com/adolfintel/Windows10-Privacy) with many modifications to make it usable on Windows 11 <br>
+• Thanks to PPGSource#3112 from my discord server for stripping Windows 11 to barebones <br>
+• Guide by The World Of PC#0077 <br>
+• [DISCORD SERVER](https://discord.gg/WtmzZ4EEjt) <br>
+• [YOUTUBE CHANNEL](https://www.youtube.com/channel/UCphlFqj7Xa9INM3DIvtXUhA/) <br>
 [!["Buy Me A Coffee"](https://cdn.discordapp.com/attachments/837916532003962910/884133800655851540/78w12.png)](https://www.buymeacoffee.com/TheWorldOfPC)
