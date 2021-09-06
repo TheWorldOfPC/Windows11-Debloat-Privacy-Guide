@@ -565,7 +565,7 @@ StartIsBack users enable these options to save some more resouces :P
 ### Final Touches
 
 • Here is a WinAeroTweaker export file, open WinAeroTweaker on your PC and import the file <br>
-• Here is the reg export of disabled services from my "Xtreme LiteOS 11 : Barebone Edition" Just double click and apply
+• Here is the reg export of disabled services from my [Xtreme LiteOS 11 : Barebone Edition](https://youtu.be/SGzOihFj1iw) Just double click and apply
 
 ![Screenshot (2)](https://user-images.githubusercontent.com/85176292/132248179-6994a79a-0dfb-43ed-a0e9-69b31ee327e6.png)
 
