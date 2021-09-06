@@ -114,6 +114,18 @@ Get-AppxPackage -AllUsers *zune* | Remove-AppxPackage
 Get-WindowsPackage -Online | Where PackageName -like *MediaPlayer* | Remove-WindowsPackage -Online -NoRestart
 ```
 
+### Groove Music
+In the PowerShell, type:
+```
+Get-AppxPackage -AllUsers *zune* | Remove-AppxPackage
+```
+
+### Microsoft Solitare Collection
+In the PowerShell, type:
+```
+Get-AppxPackage *Microsoft.MicrosoftSolitaireCollection* | Remove-AppxPackage
+```
+
 ### Sticky Notes
 In the PowerShell, type: <br>
 ```
