@@ -589,5 +589,6 @@ When a major update is installed, almost all changes will be reverted and you'll
 This guide is based on Adolf Intel's [Windows 10 Privacy Guide](https://github.com/adolfintel/Windows10-Privacy) with many modifications to make it usable on Windows 11 <br>
 Thanks to PPGSource#3112 from my discord server for stripping Windows 11 to barebones <br>
 Guide by The World Of PC#0077 <br>
-
+[DISCORD SERVER](https://discord.gg/WtmzZ4EEjt)
+[YOUTUBE CHANNEL](https://www.youtube.com/channel/UCphlFqj7Xa9INM3DIvtXUhA/)
 [!["Buy Me A Coffee"](https://cdn.discordapp.com/attachments/837916532003962910/884133800655851540/78w12.png)](https://www.buymeacoffee.com/TheWorldOfPC)
