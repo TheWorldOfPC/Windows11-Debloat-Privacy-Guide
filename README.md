@@ -566,8 +566,13 @@ StartIsBack users enable these options to save some more resouces :P
 ### Final Touches
 
 • Here is a WinAeroTweaker export file, open WinAeroTweaker on your PC and import the file
+• Here is the reg export of disabled services from my "Xtreme LiteOS 11 : Barebone Edition" Just double click and apply
 
-• Here are some "safe" to disable Windows 11 services (used to be much more in .65 update)
+![Screenshot (2)](https://user-images.githubusercontent.com/85176292/132248179-6994a79a-0dfb-43ed-a0e9-69b31ee327e6.png)
+
+If any error pop ups like this, ignore it and restart your PC
+
+![Screenshot (3)](https://user-images.githubusercontent.com/85176292/132248212-b7694af9-2541-4123-8023-87a6cd3b6084.png)
 
 ## And here you have Windows 11 Barebone!
 By removing the new start menu and taskbar files we also remove the new explorer UI and context menu, but as I said if you are not a big fan of the new UI it won't matter.
