@@ -126,6 +126,26 @@ In the PowerShell, type:
 Get-AppxPackage *Microsoft.MicrosoftSolitaireCollection* | Remove-AppxPackage
 ```
 
+### Office
+In the PoerShell, type:
+```
+Get-AppxPackage *Microsoft.MicrosoftOfficeHub* | Remove-AppxPackage
+Get-AppxPackage *Microsoft.Office.Sway* | Remove-AppxPackage
+Get-AppxPackage *Microsoft.Office.Desktop* | Remove-AppxPackage
+```
+
+### Get Help
+In the PowerShell, type:
+```
+Get-AppxPackage -AllUsers *GetHelp* | Remove-AppxPackage
+```
+
+### Feedback Hub
+In the PowerShell, type:
+```
+Get-AppxPackage *Microsoft.WindowsFeedbackHub* | Remove-AppxPackage
+```
+
 ### Sticky Notes
 In the PowerShell, type: <br>
 ```
@@ -481,39 +501,6 @@ schtasks /Change /TN "\Microsoft\Windows\NetTrace\GatherNetworkInfo" /disable
 del /F /Q "C:\Windows\System32\Tasks\Microsoft\Windows\SettingSync\*" 
 ```
 
-## Optimizing Windows 11
-
-• There is a WinAeroTweaker preset file (Winaero Tweaker Tweaks Import.ini), open WinAeroTweaker on your PC and import the file
-
-![aasdas](https://user-images.githubusercontent.com/85176292/132247138-d8b86c37-c1c1-48ae-8223-647a4e7ee4bc.png)
-
-• Now go to svchost spilt threshold and "set above RAM"
-
-![Screenshot (1035)](https://user-images.githubusercontent.com/85176292/132247273-02834750-a135-453b-9a45-f6460a761713.png)
-
-• Here are some "safe" to disable Windows 11 services (used to be much more in .65 update). Open command prompt as admin and type:
-```
-sc config AppReadiness start= disabled
-sc config tzautoupdate start= disabled
-sc config DPS start= disabled
-sc config DialogBlockingService start= disabled
-sc config AppVClient start= disabled
-sc config MsKeyboardFilter start= disabled
-sc config NetTcpPortSharing start= disabled
-sc config ssh-agent start= disabled
-sc config WPDBusEnum start= disabled
-sc config Spooler start= disabled
-sc config RemoteRegistry start= disabled
-sc config RemoteAccess start= disabled
-sc config ShellHWDetection start= disabled
-sc config Themes start= disabled
-sc config TabletInputService start= disabled
-sc config UevAgentService start= disabled
-sc config WpnService start= disabled
-sc config WSearch start= disabled
-sc config WinHttpAutoProxySvc start= disabled
-sc config LanmanWorkstation start= disabled
-```
 ## Stripping Windows 11 to barebone!
 
 **NOTE : This method or removing windows components can be dangerous and may corrupt your windows installation, you are doing this at your own risk** <br>
@@ -561,17 +548,6 @@ Well since the Win10 start menu is broken we need an alternative to it, either O
 StartIsBack users enable these options to save some more resouces :P
 
 ![Screenshot (5)](https://user-images.githubusercontent.com/85176292/132132851-1de05b63-7e5f-4954-a115-5b909648d399.png)
-
-### Final Touches
-
-• There is a WinAeroTweaker preset file (WinAeroTweaker Tweaks Import (Barebone).ini), open WinAeroTweaker on your PC and import the file <br>
-• Here is the [reg export](https://github.com/TheWorldOfPC/Windows11-Debloat-Privacy-Guide/raw/main/Files/Barebone%20Services.reg) of disabled services from my [Xtreme LiteOS 11 : Barebone Edition](https://youtu.be/SGzOihFj1iw) Just double click and apply
-
-![Screenshot (2)](https://user-images.githubusercontent.com/85176292/132248179-6994a79a-0dfb-43ed-a0e9-69b31ee327e6.png)
-
-If any error pop ups like this, ignore it and restart your PC
-
-![Screenshot (3)](https://user-images.githubusercontent.com/85176292/132248212-b7694af9-2541-4123-8023-87a6cd3b6084.png)
 
 ## And here you have Windows 11 Barebone!
 By removing the new start menu and taskbar files we also remove the new explorer UI and context menu, but as I said if you are not a big fan of the new UI it won't matter.
