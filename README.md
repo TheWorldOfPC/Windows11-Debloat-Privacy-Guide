@@ -514,11 +514,6 @@ sign out and sign in again to let the changes take place, and there you have the
 
 ## For Build 22000.176 and older
 
-Now since you have removed all the bloatware, and have done basic tweaking now it's time to strip windows 11 to barebone <br>
-If you are not a big fan of the new Windows UI (like me) then this part is for you <br>
-
-We'll start from removing the new start menu / taskbar <br>
-
 To remove the new taskbar you need to dualboot to any other OS or use Linux Live (any distro) <br>
 Now use NTFS Access and gain ownership of C:\Windows\SystemApps\
 
@@ -552,7 +547,7 @@ Create new DWord "SearchboxTaskbarMode" and set value to 0 (restart explorer or 
 
 ![Screenshot (3)](https://user-images.githubusercontent.com/85176292/132132776-1ec1e2dd-b0da-4406-b98a-5a52870b14f6.png)
 
-Well since the Win10 start menu is broken we need an alternative to it, either OpenShell or StartIsBack. I personally prefer StartIsBack over OpenShell so I'll use that one, you choose whatever you want to use. Also StartIsBack development has been stopped so we might not recieve any updates, so I would like you guys to [support the developer](https://www.startisback.com/#buy-tab) and hope he comes back with Windows 11 version of StartIsBack <br>
+Well since the Win10 start menu is broken we need an alternative to it, either OpenShell or StartIsBack. I personally prefer StartIsBack over OpenShell so I'll use that one, you choose whatever you want to use. The new StartIsBack is currently in development so would suggest you to use the older versions meant for Windows 10 <br>
 
 ![Screenshot (4)](https://user-images.githubusercontent.com/85176292/132132785-269d6fa1-a9bb-4c7b-bbbf-d08aa07199bc.png)
 
