@@ -503,7 +503,16 @@ del /F /Q "C:\Windows\System32\Tasks\Microsoft\Windows\SettingSync\*"
 
 ## Stripping Windows 11 to barebone!
 
-**NOTE : This method or removing windows components can be dangerous and may corrupt your windows installation, you are doing this at your own risk** <br>
+**NOTE : The stripping method doesn't work on 22000.184 and above builds, though the registry one does** <br>
+
+## For Build 22000.184 and above
+
+Open WinAeroTweaker and enable the classic windows 10 start menu <br>
+sign out and sign in again to let the changes take place, and there you have the old Windows 10 start menu, after 22000.132 it's broken but before this update you can still use it . Now continuew from  [Making it usable](https://github.com/TheWorldOfPC/Windows11-Debloat-Privacy-Guide#Making-it-usable) <br>
+
+![Screenshot (1185)](https://user-images.githubusercontent.com/85176292/132989873-06223852-2fd5-41bc-b79d-293338ad7d06.png)
+
+## For Build 22000.176 and older
 
 Now since you have removed all the bloatware, and have done basic tweaking now it's time to strip windows 11 to barebone <br>
 If you are not a big fan of the new Windows UI (like me) then this part is for you <br>
@@ -520,7 +529,7 @@ Now delete the folder named "MicrosoftWindows.Client.CBS_cw5n1h2txyewy" <br>
 ![Screenshot (1005)](https://user-images.githubusercontent.com/85176292/132132744-5e804520-0538-4b23-ae6a-a4686476c013.png)
 
 Now just boot back to Windows 11, you'll notice a broken taskbar <br>
-Press Win Key + R and type "control userpasswords2" and press enter <br>
+Press Win Key + R and type "netplwiz" and press enter <br>
 
 ![Screenshot (3)](https://user-images.githubusercontent.com/85176292/132132748-3ddd7117-f1b7-4359-893a-9fae2cd240d0.png)
 
@@ -529,6 +538,8 @@ Now create a new user account, log out of the current one and log into the new o
 ![Screenshot (4)](https://user-images.githubusercontent.com/85176292/132132754-c51f2c7d-ca2b-4fad-ba28-24021780570f.png)
 
 and there you have the old Windows 10 start menu, after 22000.132 it's broken but before this update you can still use it <br>
+
+### Making it usable
 
 ![Screenshot (1)](https://user-images.githubusercontent.com/85176292/132132763-1cccfb5a-4e4c-466c-9ecd-7d8dab2d9e25.png)
 
