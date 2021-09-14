@@ -567,7 +567,7 @@ Things will change in the future, and I'll do what I can to keep this guide upda
 
 • This guide is based on Adolf Intel's [Windows 10 Privacy Guide](https://github.com/adolfintel/Windows10-Privacy) with many modifications to make it usable on Windows 11 <br>
 • Thanks to PPGSource#3112 from my discord server for stripping Windows 11 to barebones <br>
-• Guide by The World Of PC#0077 <br>
+• Guide by The World Of PC#8783 <br>
 • [Discord Server](https://discord.gg/WtmzZ4EEjt) <br>
 • [Youtube Channel](https://www.youtube.com/channel/UCphlFqj7Xa9INM3DIvtXUhA/) <br>
 <br>
