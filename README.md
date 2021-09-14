@@ -2,7 +2,7 @@
 
 ## IMPORTANT
 
-This guide is meant for advanced users who wants to get rid off Windows 11's bloatware and telemetry, if you have no experience of such thing then you can consider this guide for ease. <br>
+This guide is meant for advanced users who wants to get rid off Windows 11's bloatware and telemetry, if you have no experience of such thing then you can consider this [guide](https://youtu.be/VB_E6CiFJ_s) for ease. <br>
 
 ![Screenshot (1)](https://user-images.githubusercontent.com/85176292/132135816-81a16539-b8b5-4d54-aaae-aa1ea66afa77.png)
 
