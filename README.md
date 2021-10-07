@@ -7,7 +7,7 @@ This guide is meant for advanced users who wants to get rid off Windows 11's blo
 ![Screenshot (1)](https://user-images.githubusercontent.com/85176292/132135816-81a16539-b8b5-4d54-aaae-aa1ea66afa77.png)
 
 **Note : You're doing this at your own risk, I am not responsible for any data loss or damage that may occur.** <br>
-Last tested on Windows 11 Insider Build : 22000.194 / 22458.1000
+Last tested on Windows 11 22000.194 RTM
 
 ### Pros
 
@@ -561,7 +561,7 @@ By removing the new start menu and taskbar files we also remove the new explorer
 ![Untitled-1](https://user-images.githubusercontent.com/85176292/132133180-4b7331d2-1b2a-4268-a728-de8b78691b37.png)
 
 ## Congratulations! Your copy of Windows is now Debloated & Optimized!
-Things will change in the future, and I'll do what I can to keep this guide updated. As of September 2021, this guide works on Windows 11 (22000.194 / 22458.1000)
+Things will change in the future, and I'll do what I can to keep this guide updated. As of October 2021, this guide works on Windows 11 22000.194 RTM
 
 ## Credits 
 
