@@ -127,7 +127,7 @@ Get-AppxPackage *Microsoft.MicrosoftSolitaireCollection* | Remove-AppxPackage
 ```
 
 ### Office
-In the PoerShell, type:
+In the PowerShell, type:
 ```
 Get-AppxPackage *Microsoft.MicrosoftOfficeHub* | Remove-AppxPackage
 Get-AppxPackage *Microsoft.Office.Sway* | Remove-AppxPackage
@@ -274,10 +274,9 @@ reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\GameDVR" /v AllowGameDVR /t RE
 
 ![Screenshot (07)](https://user-images.githubusercontent.com/85176292/132125057-ab8b2dbb-bb0a-4dc3-88c2-418f683e5332.png)
 
-Go to `C:\Program Files (x86)\Microsoft\Edge\Application\%your_version%\Installer\` <br>
 Now open powershell as Administrator and type: <br>
 ```
-.\setup.exe -uninstall -system-level -verbose-logging -force-uninstall
+cd %PROGRAMFILES(X86)%\Microsoft\Edge\Application\9*\Installer && setup --uninstall --force-uninstall --system-level
 ```
 Microsoft Edge is now uninstalled but you still can see a broken icon on start menu to get rid off it open command prompt and type: <br>
 
@@ -333,7 +332,7 @@ Just take the ownership of C:\Program Files\WindowsApps\ and C:\ProgramData\Micr
 Then delete the SecHealthUI folder insider WindowsApps and every folder related to Windows Defender inside ProgramData <br>
 Now disable Windows Defender through WinAeroTweaker
 
-### FINALIZING
+### OPTIMIZING
 
 Now since you have removed all the bloatware let's just finally delete the leftovers from C:\Program Files\WindowsApps <br>
 Take the ownership as we did above <br>
@@ -500,6 +499,19 @@ schtasks /Change /TN "\Microsoft\Windows\Diagnosis\Scheduled" /disable
 schtasks /Change /TN "\Microsoft\Windows\NetTrace\GatherNetworkInfo" /disable
 del /F /Q "C:\Windows\System32\Tasks\Microsoft\Windows\SettingSync\*" 
 ```
+## Disabling Useless Services and Applying some tweaks
+
+Use the batch script to disable some useless services and the reg file to import some tweaks <br>
+
+## Tweaks by WinAeroTweaker
+
+Simply install WinAeroTweaker and import the preset made by me (.ini file) <br>
+
+![Screenshot (1672)](https://user-images.githubusercontent.com/85176292/147569287-a7223dc9-3081-4289-b18e-8f71507e8d02.png)
+
+## (OPTIONAL) Disabling Windows Updates & Store related services
+
+Use the batch script to disable them. <br>
 
 ## Stripping Windows 11 to barebone!
 
@@ -508,7 +520,7 @@ del /F /Q "C:\Windows\System32\Tasks\Microsoft\Windows\SettingSync\*"
 ## For Build 22000.184/22454.1000 and above
 
 Open WinAeroTweaker and enable the classic windows 10 start menu <br>
-sign out and sign in again to let the changes take place, and there you have the old Windows 10 start menu, after 22000.132 it's broken but before this update you can still use it . Now continuew from  [Making it usable](https://github.com/TheWorldOfPC/Windows11-Debloat-Privacy-Guide#Making-it-usable) <br>
+sign out and sign in again to let the changes take place, and there you have the old Windows 10 start menu, after 22000.132 it's broken but before this update you can still use it . Now continue from  [Making it usable](https://github.com/TheWorldOfPC/Windows11-Debloat-Privacy-Guide#Making-it-usable) <br>
 
 ![Screenshot (1185)](https://user-images.githubusercontent.com/85176292/132989873-06223852-2fd5-41bc-b79d-293338ad7d06.png)
 
@@ -536,32 +548,19 @@ and there you have the old Windows 10 start menu, after 22000.132 it's broken bu
 
 ### Making it usable
 
-![Screenshot (1)](https://user-images.githubusercontent.com/85176292/132132763-1cccfb5a-4e4c-466c-9ecd-7d8dab2d9e25.png)
+Well since the Win10 start menu is broken we need an alternative to it like [StartAllBack](https://www.startallback.com/). <br>
 
-Now since it's broken (as well as the cortana bar) let's just hide these icons, task view is quite simple just go to taskbar options and disable it <br>
-
-![Screenshot (2)](https://user-images.githubusercontent.com/85176292/132132768-27ccc5bb-8bfa-461c-b051-c8cd110cfb74.png)
-
-For cortana open regedit and go to "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search" <br>
-Create new DWord "SearchboxTaskbarMode" and set value to 0 (restart explorer or login again to let the changes take place) <br>
-
-![Screenshot (3)](https://user-images.githubusercontent.com/85176292/132132776-1ec1e2dd-b0da-4406-b98a-5a52870b14f6.png)
-
-Well since the Win10 start menu is broken we need an alternative to it, either OpenShell or StartIsBack. I personally prefer StartIsBack over OpenShell so I'll use that one, you choose whatever you want to use. The new StartIsBack is currently in development so would suggest you to use the older versions meant for Windows 10 <br>
-
-![Screenshot (4)](https://user-images.githubusercontent.com/85176292/132132785-269d6fa1-a9bb-4c7b-bbbf-d08aa07199bc.png)
-
-StartIsBack users enable these options to save some more resouces :P
-
-![Screenshot (5)](https://user-images.githubusercontent.com/85176292/132132851-1de05b63-7e5f-4954-a115-5b909648d399.png)
+![Screenshot (1)](https://user-images.githubusercontent.com/85176292/147569057-49849363-c0c4-49cc-9646-85dc38dc05e2.png)
+![Screenshot (2)](https://user-images.githubusercontent.com/85176292/147569068-ad579193-8a28-46f5-a539-4b41caf359a6.png)
 
 ## And here you have Windows 11 Barebone!
 By removing the new start menu and taskbar files we also remove the new explorer UI and context menu, but as I said if you are not a big fan of the new UI it won't matter.
 
-![Untitled-1](https://user-images.githubusercontent.com/85176292/132133180-4b7331d2-1b2a-4268-a728-de8b78691b37.png)
+![Screenshot (3)](https://user-images.githubusercontent.com/85176292/147568962-77363296-6bb6-4a6b-a0d6-87c604cb9178.jpg)
+
 
 ## Congratulations! Your copy of Windows is now Debloated & Optimized!
-Things will change in the future, and I'll do what I can to keep this guide updated. As of October 2021, this guide works on Windows 11 22000.194 RTM
+Things will change in the future, and I'll do what I can to keep this guide updated. As of October 2021, this guide works on Windows 11 22000.376
 
 ## Credits 
 
