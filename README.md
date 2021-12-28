@@ -7,7 +7,7 @@ This guide is meant for advanced users who wants to get rid off Windows 11's blo
 ![Screenshot (1)](https://user-images.githubusercontent.com/85176292/132135816-81a16539-b8b5-4d54-aaae-aa1ea66afa77.png)
 
 **Note : You're doing this at your own risk, I am not responsible for any data loss or damage that may occur.** <br>
-Last tested on Windows 11 22000.194 RTM
+Last tested on Windows 11 22000.376
 
 ### Pros
 
