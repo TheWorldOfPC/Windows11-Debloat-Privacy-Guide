@@ -20,7 +20,7 @@ Last tested on Windows 11 22000.376
 ### Cons
 
 ➖ Breaks Sysprep <br>
-➖ Won't be able to use sfc/scannow command
+➖ Don't use sfc/scannow command
 
 ## Pre-Requisite
 
