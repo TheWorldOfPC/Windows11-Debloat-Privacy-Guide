@@ -560,7 +560,7 @@ By removing the new start menu and taskbar files we also remove the new explorer
 
 
 ## Congratulations! Your copy of Windows is now Debloated & Optimized!
-Things will change in the future, and I'll do what I can to keep this guide updated. As of October 2021, this guide works on Windows 11 22000.376
+Things will change in the future, and I'll do what I can to keep this guide updated. As of December 2021, this guide works on Windows 11 22000.376
 
 ## Credits 
 
